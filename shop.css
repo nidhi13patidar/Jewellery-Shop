@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.nav {
+  background-color: black;
+  color: rgba(218, 165, 32, 0.784);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.imglogo {
+  margin-left: 40rem;
+}
+
+.search{
+  width: 13rem;
+  height: 2rem;
+  display: flex;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  text-align: center;
+  border-radius: 1rem ;
+  background-color:transparent;
+  border: 2px solid white; 
+}
+.search:hover{
+  background-color:white; 
+}
+.fourimg {
+  background-color:black;
+  padding-left: 20px;
+}
+.bridesimg{
+  height: 24rem;
+  width: 18rem;
+  padding-top: 2rem;
+  margin: 2rem;
+transition: all 0.5s;
+  
+}
+.bridesimg:hover {
+  transform: scale(1.05);
+  filter: saturate(2);
+}
+.container1 {
+  background-color:black;
+ 
+  padding: 4rem;
+  font-size: large;
+  text-align: center;
+  color: goldenrod;
+  line-height: 3rem;
+  font-family: cursive;
+  letter-spacing: 1px;
+  
+}
+.head:hover{
+  color: rgb(233, 140, 10);
+}
+.love {
+    background-color:goldenrod;
+  height: 300px;
+  text-align: justify;
+  border: 2px solid white;  
+  color: black;
+  font-size: medium;
+  font-family: cursive;
+  width: 60%;
+  margin-top: 6rem;
+  margin-left: 3rem;
+  border-radius: 5px 80px 5px 80px;
+  transition: all 0.5s;
+}
+
+
+.h2{
+    position: relative;
+    text-align: center;
+}
+.p{
+    padding-left: 18rem;
+    margin: 2rem;
+    color:white;
+    position: absolute;
+    font-size: large;  
+}
+.necklaceimg{
+    margin-top: -80px;
+    margin-left: 20px;
+    position: absolute;
+    clip-path: circle(40%);
+}
+.model{
+   margin-top: -29rem;
+    
+    margin-left: 56rem;
+    padding-left: 12rem;
+    padding-top: 0;
+    
+}
+.container2{
+  
+  height: 600px;
+  width: 100%;
+  background:linear-gradient(white,black) ;
+}
+.container2:hover{
+  animation: fadeBackground 5s;
+  animation-fill-mode: forwards;
+}
+
+.offer{
+  line-height: 50px;
+  font-size: x-large;
+  text-align: justify;
+  margin-left: 200px;
+  padding-top: 200px;
+  font-family: cursive;
+}
+.offer{
+  animation: fadeIn 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.offerimg{
+  margin-left: 900px;
+  margin-top: -400px;
+  clip-path: circle(50%);
+   
+}
+.offerimg:hover{
+  filter: sepia(100%);
+  opacity:1 ;
+  
+}
+font{
+  color:#B80000;
+}
+.ringbtn{
+  background-color:#FF9800;
+  width: 200px;
+  height: 30px;
+  border: transparent;
+  color: white;
+}
+.ringbtn:hover{
+  background-color: rgba(255, 217, 0, 0.702);
+    padding: 10px;
+    box-shadow: 4px 8px #a4c28b68 ;
+  
+  
+}
+.nav2{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-bottom: 2px solid goldenrod;
+  color: goldenrod;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: papyrus; 
+}
+li{
+  list-style: none;
+  padding:30px;
+  color: goldenrod;
+   transition: all 0.5s; 
+}
+li:hover{
+  transform: scale(0.8);
+}
+a{
+  text-decoration: none;
+}
+li:hover{
+  background-color: goldenrod;
+  color: black;
+}
+.bigcontainer1{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background-color: black;
+}
+.bigcontainer2{
+
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background-color: black;
+}
+.div1{
+  background-color: white;
+  margin-top: 100px;
+  border: 2px solid goldenrod;
+  height: 300px;
+  margin-left: 100px;
+}
+.img{
+  border: 1px solid goldenrod;
+  transition: all 0.4s;
+}
+.img:hover{
+  filter: grayscale(100%);
+  transform: scale(0.9);
+}
+h4{
+  text-align: center;
+}
+.boxbtn1{
+  margin-left: 10px;
+  width: 100px;
+  background-color: goldenrod;
+}
+.boxbtn1:hover{
+  background-color:rgb(74, 66, 24);
+  color: white;
+}
+.boxbtn2{
+  width: 100px;
+  border: 1px solid goldenrod;
+
+}
+.boxbtn2:hover{
+  background-color: rgb(64, 214, 64);
+  color: white;
+}
+.tqs{
+  color:black;
+  font-size: x-large;
+  font-family: papyrus;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+
+}
+.tqs{
+  border: 5px solid goldenrod;
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {color:yellow;}
+  25%  {color:red;}
+  50%  {color: green;}
+  75% {color: blue;}
+  100% {color:palevioletred;}
+}
+
+
+
+ 
+  
+
+
+
+
+
+ 
+
+
+  
+
+
+
